@@ -1,0 +1,12 @@
+.page_hd{
+	text-align:center;
+}
+.wrapper{
+	display:flex;
+	
+}
+.item{
+	height:200rpx;
+	border:1px solid #ccc;
+	flex:auto;
+}

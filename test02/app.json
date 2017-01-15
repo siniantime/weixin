@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/quna/quna",
+    "pages/demo1/demo1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"blue",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "backgroundColor":"green",
+    "selectedColor":"yellow",
+     "list":[
+     {
+      "text":"测试",
+      "pagePath":"pages/test/test"
+      },
+       {
+      "text":"首页",
+      "pagePath":"pages/index/index"
+      }
+      ]
+  },
+  "debug":true
+}

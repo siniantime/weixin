@@ -1,0 +1,17 @@
+<view class="page">
+	<view class="pageHead">
+	</view>
+	<view class="pageBody">
+		<view class="sectionNav">
+			<view class="left">
+				酒店
+			</view>
+			<view class="right">
+				<view class="item">酒店</view>
+				<view class="item">就地昂</view>
+				<view class="item">酒店</view>
+				<view class="item">酒店</view>
+			</view>
+		</view>
+	</view>
+</view>

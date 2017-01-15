@@ -1,0 +1,21 @@
+.sectionNav{
+	display:flex;
+	height:120px;
+	font-size:14px;
+	background:green;
+}
+.left{
+	width:33.33%;
+}
+.right{
+	width:66.67%;
+	flex-wrap:wrap;
+}
+.left,.right{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.item{
+	width:50%;
+}
