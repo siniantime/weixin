@@ -1,0 +1,6 @@
+.scroll{
+	background:green;
+}
+.inner{
+	height:500px;
+}
