@@ -1,0 +1,14 @@
+<view class="page">
+	<view>{{seladdr}}-{{selcour}}-{{selnum}}</view>
+	<picker-view value="{{value}}" indicator-style="height:50px" style="width:100%;height:300px" bindchange="change">
+		<picker-view-column>
+			<view wx:for="{{address}}" style="height:50px">{{item}}</view>
+		</picker-view-column>
+		<picker-view-column>
+			<view wx:for="{{course}}" style="height:50px">{{item}}</view>
+		</picker-view-column>
+		<picker-view-column>
+			<view wx:for="{{num}}" style="height:50px">{{item}}</view>
+		</picker-view-column>
+	</picker-view>
+</view>
