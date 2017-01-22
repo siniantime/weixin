@@ -1,0 +1,18 @@
+<view class="content">
+	<view class="contentItem">
+		<text>焦糖玛奇朵</text>
+		<image src="img/hot-caramel-macchiato.jpg"></image>
+	</view>
+	<view class="contentItem">
+		<text>摩卡</text>
+		<image src="img/hot-extra-shot-mocha.jpg"></image>
+	</view>
+	<view class="contentItem">
+		<text>抹茶拿铁</text>
+		<image src="img/hot-green-tea-latte.jpg"></image>
+	</view>
+	<view class="contentItem">
+		<text>榛果风味拿铁</text>
+		<image src="img/Starbucks-Hazelnut-Latte.jpg"></image>
+	</view>
+</view>

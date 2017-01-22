@@ -1,0 +1,26 @@
+.content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.contentItem{
+	position:relative;
+	width:730rpx;
+	height:730rpx;
+	margin:10rpx;
+}
+.contentItem image{
+	width:100%;
+	height:100%;
+}
+.contentItem text{
+	position:absolute;
+	bottom:0rpx;
+	height:80rpx;
+	width:725rpx;
+	padding-left:5rpx;
+	line-height:80rpx;
+	color:#fff;
+	background:#27A0F0;
+}

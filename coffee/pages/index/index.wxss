@@ -1,0 +1,41 @@
+
+swiper{
+	height:500rpx;
+}
+swiper image{
+	width:100%;
+	height:500rpx;
+}
+.header{
+	display:flex;
+	height:70rpx;
+	margin:0 5rpx;
+	padding-left:20rpx;
+	align-items:center;
+	border-left:10rpx solid limegreen;
+	color:#D25D06;
+}
+.content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.contentItem{
+	position:relative;
+	width:350rpx;
+	height:260rpx;
+	margin:10rpx;
+}
+.contentItem image{
+	width:100%;
+	height:100%;
+}
+.contentItem text{
+	position:absolute;
+	bottom:0rpx;
+	width:346rpx;
+	padding-left:5rpx;
+	color:#fff;
+	background:#aaa;
+}

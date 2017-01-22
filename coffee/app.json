@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/coffee/coffee",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor":"#FBB03B",
+      "color":"red",
+    "navigationBarBackgroundColor": "#8CC63F",
+    "navigationBarTitleText": "似年时光咖啡",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/coffee/coffee",
+      "text": "咖啡"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }],
+    "backgroundColor":"#8CC63F",
+    "color":"#000"
+  }
+}
